@@ -12,12 +12,20 @@ dependencies:
   device_preview: ^1.2.0
 
 dev_dependencies:
+  flutter_launcher_icons: "^0.14.3"
+
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/imprint-logo.png"
+  min_sdk_android: 2
 
                                         # Add from here...
   assets:
